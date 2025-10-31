@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Zakatin">
         <activity
-            android:name=".JenisZakatActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
