@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <style name="MenuItem">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
@@ -64,4 +66,18 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-</resources>
+    <style name="ZakatTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:background">@color/green_primary</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabTextColor">#CCFFFFFF</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabMode">scrollable</item>
+    </style>
+
+    <style name="CustomInputLayoutStyle"
+        parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    </resources>
